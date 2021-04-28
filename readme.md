@@ -1,5 +1,6 @@
 # Lab 1
 
+
 ## Lab 1.1 Connecting to Management
 
 Der Fingerprint des Servers ist:
@@ -18,3 +19,4 @@ Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'aus
 
 ## Lab 1.2 SSH Connection to Linux Instance
 
+![003](https://user-images.githubusercontent.com/173962/116441883-29fa8280-a852-11eb-8233-b5ce5fd76ff8.PNG)
