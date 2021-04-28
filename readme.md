@@ -8,6 +8,8 @@ Der Fingerprint des Servers ist:
 
 Er stimmt überein.
 
+![002](https://user-images.githubusercontent.com/173962/116440505-dfc4d180-a850-11eb-9774-08411186ece4.PNG)
+
 ---
 
 _Beantworten Sie die Frage: Welche Aufgaben hat der Fingerprint und welche Bedrohungen werden damit verhindert?_
