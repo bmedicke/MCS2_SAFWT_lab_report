@@ -1,6 +1,6 @@
 # Daten
 
-Linux internal IP: 192.168.20.50
+Linux internal IP: ´192.168.20.50´
 
 # Lab 1
 
@@ -44,3 +44,14 @@ Intrusion Prevention System Blade aktiviert und Policy installiert.
 ![image](https://user-images.githubusercontent.com/173962/116446047-dc344900-a856-11eb-9c49-0a6e22d7781e.png)
 
 ![image](https://user-images.githubusercontent.com/173962/116446180-fc640800-a856-11eb-9845-fa1426b3747c.png)
+
+Nach 10% abgebrochen (da ging scheinbar nichts weiter). Zuerst das Management Server Update machen.
+
+![image](https://user-images.githubusercontent.com/173962/116447220-076b6800-a858-11eb-94e6-e242ad288cb0.png)
+
+Das hängt auch.
+
+![image](https://user-images.githubusercontent.com/173962/116449247-426e9b00-a85a-11eb-8ec2-7650a48b98ac.png)
+
+![image](https://user-images.githubusercontent.com/173962/116450678-dd1ba980-a85b-11eb-9fb1-561fd58be2e3.png)
+
