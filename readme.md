@@ -37,6 +37,8 @@ Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'aus
 
 ![image](https://user-images.githubusercontent.com/173962/116462086-5a99e680-a869-11eb-8c1e-d9d56f243200.png)
 
+![image](https://user-images.githubusercontent.com/173962/116464247-08a69000-a86c-11eb-883b-5481d05206fc.png)
+
 # Lab 2
 
 ## Lab 2.1
