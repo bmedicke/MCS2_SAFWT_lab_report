@@ -23,6 +23,27 @@ Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'aus
 
 ## Lab 1.2 SSH Connection to Linux Instance
 
+![image](https://user-images.githubusercontent.com/173962/116457764-19530800-a864-11eb-8acc-00c64e2c3783.png)
+
+![image](https://user-images.githubusercontent.com/173962/116457797-24a63380-a864-11eb-8b16-17e8f28af12e.png)
+
+![image](https://user-images.githubusercontent.com/173962/116458672-320fed80-a865-11eb-8964-93ca2058e15d.png)
+
+![image](https://user-images.githubusercontent.com/173962/116460772-b82d3380-a867-11eb-914c-251b079ddaf4.png)
+
+![image](https://user-images.githubusercontent.com/173962/116461333-6afd9180-a868-11eb-88e8-e85ff3e6e677.png)
+
+![image](https://user-images.githubusercontent.com/173962/116461224-4bfeff80-a868-11eb-8dbc-87ca3f20934a.png)
+
+![image](https://user-images.githubusercontent.com/173962/116462086-5a99e680-a869-11eb-8c1e-d9d56f243200.png)
+
+# Lab 2
+
+## Lab 2.1
+
+## Lab 2.2
+
+
 ![003](https://user-images.githubusercontent.com/173962/116441883-29fa8280-a852-11eb-8233-b5ce5fd76ff8.PNG)
 
 ![image](https://user-images.githubusercontent.com/173962/116443098-87430380-a853-11eb-93a8-dd37cb9475ed.png)
