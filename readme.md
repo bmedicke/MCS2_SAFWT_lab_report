@@ -1,7 +1,15 @@
-# Exercise 1
+# Lab 1
 
-## CA fingerprint
+## Lab 1.1
+
+Der Fingerprint des Servers ist:
 
 `REAR NECK KICK TIP HOE DUET DALE GASH ECHO OW SHED TONE`
 
-The fingerprint matches!
+Er stimmt überein.
+
+---
+
+_Beantworten Sie die Frage: Welche Aufgaben hat der Fingerprint und welche Bedrohungen werden damit verhindert?_
+
+Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'ausgetauscht' wird, können Man-In-The-Middle Angriffe erkannt werden.
