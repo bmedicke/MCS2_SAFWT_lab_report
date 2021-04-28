@@ -30,3 +30,17 @@ Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'aus
 ![image](https://user-images.githubusercontent.com/173962/116443346-d8eb8e00-a853-11eb-9725-46d41451d307.png)
 
 ![image](https://user-images.githubusercontent.com/173962/116444319-e6554800-a854-11eb-95ac-c66604399bbe.png)
+
+![image](https://user-images.githubusercontent.com/173962/116444786-6380bd00-a855-11eb-9815-dac316e523fa.png)
+
+Intrusion Prevention System Blade aktiviert und Policy installiert.
+
+![image](https://user-images.githubusercontent.com/173962/116445471-35e84380-a856-11eb-910a-df0847e93d46.png)
+
+![image](https://user-images.githubusercontent.com/173962/116445008-ab9fdf80-a855-11eb-9851-907d40f17ead.png)
+
+![image](https://user-images.githubusercontent.com/173962/116445775-88296480-a856-11eb-99a5-0996fbb72f96.png)
+
+![image](https://user-images.githubusercontent.com/173962/116446047-dc344900-a856-11eb-9c49-0a6e22d7781e.png)
+
+![image](https://user-images.githubusercontent.com/173962/116446180-fc640800-a856-11eb-9845-fa1426b3747c.png)
