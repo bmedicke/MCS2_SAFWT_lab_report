@@ -1,11 +1,27 @@
-# Daten
+# SAFWT lab report
+
+**Degree: IT Security Master, MCS**
+
+**Semester: 2nd**
+
+**Lecturer: Thomas Krabina**
+
+**Subject: Security Architekturen mit Firewalltechniken**
+
+**Language: German**
+
+---
+
+# Lab Report Firewalltechniken
+
+## Daten
 
 Linux internal IP: ´192.168.20.50´
 
-# Lab 1
+## Lab 1
 
 
-## Lab 1.1 Connecting to Management
+### Lab 1.1 Connecting to Management
 
 Der Fingerprint des Servers ist:
 
@@ -21,7 +37,7 @@ _Beantworten Sie die Frage: Welche Aufgaben hat der Fingerprint und welche Bedro
 
 Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'ausgetauscht' wird, können Man-In-The-Middle Angriffe erkannt werden.
 
-## Lab 1.2 SSH Connection to Linux Instance
+### Lab 1.2 SSH Connection to Linux Instance
 
 ![image](https://user-images.githubusercontent.com/173962/116457764-19530800-a864-11eb-8acc-00c64e2c3783.png)
 
@@ -39,11 +55,11 @@ Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'aus
 
 ![image](https://user-images.githubusercontent.com/173962/116464247-08a69000-a86c-11eb-883b-5481d05206fc.png)
 
-# Lab 2
+## Lab 2
 
-## Lab 2.1
+### Lab 2.1
 
-## Lab 2.2
+### Lab 2.2
 
 
 ![003](https://user-images.githubusercontent.com/173962/116441883-29fa8280-a852-11eb-8233-b5ce5fd76ff8.PNG)
