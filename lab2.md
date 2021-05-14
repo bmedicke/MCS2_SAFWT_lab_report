@@ -75,7 +75,12 @@ Das hängt auch.
 > 
 > Erkannter Nmap-Script-Scan: `sudo nmap -sC google.com`
 
+> ![image](https://user-images.githubusercontent.com/173962/118311190-db0a4980-b4ef-11eb-86c1-4c3fa5b7ef8f.png)
+> 
+> Erkannter Nmap-Script-Scan: Details
 
 ### Lab 2.2 Anti-Virus
+
+
 
 ### Lab 2.3 HTTPS Inspection
