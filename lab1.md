@@ -124,3 +124,21 @@ Es sind keine Probleme aufgetreten.
 > ![image](https://user-images.githubusercontent.com/173962/118291914-64158680-b4d8-11eb-9e75-4f89c73b9a53.png)
 >
 > Der Ping geht durch!
+
+#### 1.3.3 apt
+
+> ![image](https://user-images.githubusercontent.com/173962/118292217-b060c680-b4d8-11eb-84e5-b345d6a55627.png)
+>
+> `sudo apt update`
+
+> ![image](https://user-images.githubusercontent.com/173962/118292526-02a1e780-b4d9-11eb-8959-95c6d234bbab.png)
+>
+> `sudo apt install xfce4 xfce4-goodies`
+
+>![image](https://user-images.githubusercontent.com/173962/118292823-53194500-b4d9-11eb-967c-2c7571bb2338.png)
+>
+> which takes quite a bit
+
+> ![image](https://user-images.githubusercontent.com/173962/118292958-73e19a80-b4d9-11eb-83fb-509486069f89.png)
+>
+> `sudo apt install tightvncserver`
