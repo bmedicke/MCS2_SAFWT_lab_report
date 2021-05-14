@@ -50,13 +50,12 @@
 > 
 > Neues Profil
 
+#### 2.1.8 Update
+
+
+
 ### Lab 2.2 Anti-Virus
 
-
-
-![image](https://user-images.githubusercontent.com/173962/116445008-ab9fdf80-a855-11eb-9851-907d40f17ead.png)
-
-![image](https://user-images.githubusercontent.com/173962/116445775-88296480-a856-11eb-99a5-0996fbb72f96.png)
 
 ![image](https://user-images.githubusercontent.com/173962/116446047-dc344900-a856-11eb-9c49-0a6e22d7781e.png)
 
