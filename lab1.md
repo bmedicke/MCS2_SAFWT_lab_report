@@ -28,9 +28,17 @@ Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'aus
 
 ### Lab 1.2 SSH Connection to Linux Instance
 
-![image](https://user-images.githubusercontent.com/173962/116457764-19530800-a864-11eb-8acc-00c64e2c3783.png)
+Anlegen eines neuen Netzwerkobjektes (Subnetz 192.168.20.0/24), welches mit NAT hinter der Firewall versteckt wird.
 
-![image](https://user-images.githubusercontent.com/173962/116457797-24a63380-a864-11eb-8b16-17e8f28af12e.png)
+> ![image](https://user-images.githubusercontent.com/173962/116457764-19530800-a864-11eb-8acc-00c64e2c3783.png)
+>
+> Neues Netzwerkobjekt, Reiter: General
+
+> ![image](https://user-images.githubusercontent.com/173962/116457797-24a63380-a864-11eb-8b16-17e8f28af12e.png)
+>
+> Neues Netzwerkobjekt, Reiter: NAT
+
+Ebenso wurde ein Host-Obejtk angelegt, welches die Linux Instanz (IP: `192.168.20.50`) abbildet.
 
 ![image](https://user-images.githubusercontent.com/173962/116458672-320fed80-a865-11eb-8964-93ca2058e15d.png)
 
