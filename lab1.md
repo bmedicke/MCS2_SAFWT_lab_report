@@ -10,11 +10,11 @@
 
 ### Lab 1.1 Connecting to Management
 
-Der Fingerprint des Servers ist:
+Der Fingerprint des Servers, der bei der ersten Verbindung angezeigt wird ist:
 
 `REAR NECK KICK TIP HOE DUET DALE GASH ECHO OW SHED TONE`
 
-Er stimmt überein.
+Er stimmt mit dem im Gaia Web Interface überein.
 
 > ![002](https://user-images.githubusercontent.com/173962/116440505-dfc4d180-a850-11eb-9774-08411186ece4.PNG)
 >
