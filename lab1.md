@@ -118,3 +118,9 @@ Es sind keine Probleme aufgetreten.
 >![image](https://user-images.githubusercontent.com/173962/118291408-dd60a980-b4d7-11eb-9d50-fce75bab26f3.png)
 >
 > Publish & Install
+
+#### 1.3.2 Login und Internet-Test
+
+> ![image](https://user-images.githubusercontent.com/173962/118291914-64158680-b4d8-11eb-9e75-4f89c73b9a53.png)
+>
+> Der Ping geht durch!
