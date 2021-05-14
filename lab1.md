@@ -103,4 +103,8 @@ Die Policies wurden mit "Install Policy" installiert.
 >
 > Erfolgreicher Login via SSH Key auf die CloudGuard Instanz
 
+#### Aufgetretene Probleme
+
+Es sind keine Probleme aufgetreten.
+
 ### Lab 1.3 VNCServer & NAT Rules
