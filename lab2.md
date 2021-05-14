@@ -32,14 +32,18 @@
 >
 > Protected Scope
 
+#### 2.1.7 Profil "Strict" editieren
+
+> ![image](https://user-images.githubusercontent.com/173962/116444319-e6554800-a854-11eb-95ac-c66604399bbe.png)
+> 
+> "Strict" Profile
+
+> ![image](https://user-images.githubusercontent.com/173962/118305074-ca55d580-b4e7-11eb-875e-30cb60485282.png)
+> 
+> Nur IPS Blade aktivieren, alles auf "Prevent"
+
 ### Lab 2.2 Anti-Virus
 
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/173962/116444319-e6554800-a854-11eb-95ac-c66604399bbe.png)
 
 ![image](https://user-images.githubusercontent.com/173962/116444786-6380bd00-a855-11eb-9815-dac316e523fa.png)
 
