@@ -76,6 +76,9 @@ Hier werden zwei weitere Regeln erstellt:
 > 
 > Neue Management und Stealth Regeln
 
+#### 1.2.4
+
+Jetzt wurde Logging für alle Regeln aktiviert (siehe vorherigen Screenshot).
 
 ![image](https://user-images.githubusercontent.com/173962/116460772-b82d3380-a867-11eb-914c-251b079ddaf4.png)
 
