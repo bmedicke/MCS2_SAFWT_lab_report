@@ -118,3 +118,27 @@ Das hängt auch.
 > Eicar Test-Malware wurde erfolgreich erkannt und der Download unterbunden.
 
 ### Lab 2.3 HTTPS Inspection
+
+> ![image](https://user-images.githubusercontent.com/173962/118316186-cc736080-b4f6-11eb-8bca-2c9fccb91318.png)
+> 
+> Neues Zertifikat erstellt.
+
+> ![image](https://user-images.githubusercontent.com/173962/118316556-4277c780-b4f7-11eb-880a-e96af84e6c4e.png)
+> 
+> HTTPS-Inspection Policy
+
+> ![image](https://user-images.githubusercontent.com/173962/118318567-dc407400-b4f9-11eb-83e3-dc3b031c78ec.png)
+>
+> Unterbundener HTTPS Request bei Download von Eicar-Malware Testfile
+
+> ![image](https://user-images.githubusercontent.com/173962/118319452-178f7280-b4fb-11eb-99e9-2a3090c07ccb.png)
+>
+> HTTPS Fehler
+
+>![image](https://user-images.githubusercontent.com/173962/118319750-7ead2700-b4fb-11eb-9ff3-48baf86561cd.png)
+>
+> Nach import des Zertifikates.
+
+> ![image](https://user-images.githubusercontent.com/173962/118318684-03974100-b4fa-11eb-8f60-0e3ab7b2d69c.png)
+>
+> Detail 
