@@ -173,3 +173,7 @@ Es sind keine Probleme aufgetreten.
 > ![image](https://user-images.githubusercontent.com/173962/118295867-a04ae600-b4dc-11eb-8bc5-7585ef8ed0ab.png)
 > 
 > VNC Service aktivieren und starten
+
+> ![image](https://user-images.githubusercontent.com/173962/118296300-1a7b6a80-b4dd-11eb-8098-f27ae0ef6765.png)
+>
+> Der Service läuft!
