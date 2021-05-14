@@ -137,8 +137,39 @@ Es sind keine Probleme aufgetreten.
 
 >![image](https://user-images.githubusercontent.com/173962/118292823-53194500-b4d9-11eb-967c-2c7571bb2338.png)
 >
-> which takes quite a bit
+> Was eine Weile dauert.
 
 > ![image](https://user-images.githubusercontent.com/173962/118292958-73e19a80-b4d9-11eb-83fb-509486069f89.png)
 >
 > `sudo apt install tightvncserver`
+
+
+#### 1.3.4 VNC server starten
+
+> ![image](https://user-images.githubusercontent.com/173962/118293263-c327cb00-b4d9-11eb-83d5-7d7f126e8941.png)
+>
+> Ok...
+
+> ![image](https://user-images.githubusercontent.com/173962/118293930-798bb000-b4da-11eb-8d1f-f358cb2f69c8.png)
+> 
+> Setup fertiggestellt.
+
+> ![image](https://user-images.githubusercontent.com/173962/118294464-0898c800-b4db-11eb-8e9b-2f4ba395b421.png)
+>
+> xfce4 Eintrag
+
+> ![image](https://user-images.githubusercontent.com/173962/118294764-5ad9e900-b4db-11eb-9c0c-3fdab2a211f0.png)
+>
+> Ausführbar machen.
+
+> ![image](https://user-images.githubusercontent.com/173962/118294941-8fe63b80-b4db-11eb-9252-ec59a880dcf8.png)
+>
+> Neues Service anlegen
+
+> ![image](https://user-images.githubusercontent.com/173962/118295666-6da0ed80-b4dc-11eb-906e-8c0269d18ee1.png)
+>
+> Service Script
+
+> ![image](https://user-images.githubusercontent.com/173962/118295867-a04ae600-b4dc-11eb-8bc5-7585ef8ed0ab.png)
+> 
+> VNC Service aktivieren und starten
