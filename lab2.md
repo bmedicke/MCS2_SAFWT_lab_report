@@ -135,10 +135,14 @@ Das hängt auch.
 >
 > HTTPS Fehler
 
+> ![image](https://user-images.githubusercontent.com/173962/118320138-1743a700-b4fc-11eb-8c91-a106898088f2.png)
+>
+> Zertifikatsimport.
+
 >![image](https://user-images.githubusercontent.com/173962/118319750-7ead2700-b4fb-11eb-9ff3-48baf86561cd.png)
 >
 > Nach import des Zertifikates.
 
 > ![image](https://user-images.githubusercontent.com/173962/118318684-03974100-b4fa-11eb-8f60-0e3ab7b2d69c.png)
 >
-> Detail 
+> Detailansicht
