@@ -28,6 +28,8 @@ Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'aus
 
 ### Lab 1.2 SSH Connection to Linux Instance
 
+#### 1.2.1
+
 Anlegen eines neuen Netzwerkobjektes (Subnetz 192.168.20.0/24), welches mit NAT hinter der Firewall versteckt wird.
 
 > ![image](https://user-images.githubusercontent.com/173962/116457764-19530800-a864-11eb-8acc-00c64e2c3783.png)
@@ -44,9 +46,16 @@ Ebenso wurde ein Host-Objekt angelegt, welches die Linux Instanz (IP: `192.168.2
 >
 > Neues Netzwerkobjekt: Linux Instance
 
----
+#### 1.2.2
 
-![image](https://user-images.githubusercontent.com/173962/116458672-320fed80-a865-11eb-8964-93ca2058e15d.png)
+Anlegen neuer Policies um SSH Zugriff auf Linux Instanz zu ermöglichen. Beachte: Auf Port 22 läuft bereits der SSH Server der CloudGuard Instanz. Die folgenden Regeln wurden erstellt:
+
+1. eine Firewallregel, die Port 2222 (für SSH) auf die CloudGuard Instanz erlaubt
+2. eine NAT-Regel, die Port 2222 der CloudGuard Instanz auf 22 der Linux Instanz mappt 
+
+> ![image](https://user-images.githubusercontent.com/173962/116458672-320fed80-a865-11eb-8964-93ca2058e15d.png)
+>
+> Neues TCP-Service-Object: SSH-access
 
 ![image](https://user-images.githubusercontent.com/173962/116462870-460a1e00-a86a-11eb-91e4-4a898ec0e51f.png)
 
