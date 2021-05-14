@@ -177,3 +177,28 @@ Es sind keine Probleme aufgetreten.
 > ![image](https://user-images.githubusercontent.com/173962/118296300-1a7b6a80-b4dd-11eb-8098-f27ae0ef6765.png)
 >
 > Der Service läuft!
+
+
+#### 1.3.5 Erstellen von Security Policies
+
+> ![image](https://user-images.githubusercontent.com/173962/118298315-9bd3fc80-b4df-11eb-83a7-2c804f96840b.png)
+>
+> Neues VNC Service Objekt
+
+> ![image](https://user-images.githubusercontent.com/173962/118298535-dd64a780-b4df-11eb-8a06-f0fe782a0032.png)
+>
+> NAT für den VNC Service (von CloudGuard auf Linux Instanz)
+
+> ![image](https://user-images.githubusercontent.com/173962/118298780-33394f80-b4e0-11eb-9b1c-b7b189eb7ba1.png)
+>
+> Installieren der Policy.
+
+#### 1.3.6 Testen der VNC Verbindung
+
+> ![image](https://user-images.githubusercontent.com/173962/118299065-94f9b980-b4e0-11eb-958e-66c9221d173f.png)
+>
+> Verbindungsaufbau funktioniert.
+
+> ![image](https://user-images.githubusercontent.com/173962/118299273-d68a6480-b4e0-11eb-882b-f39fb3cfe021.png)
+>
+> Verbindung erfolgreich.
