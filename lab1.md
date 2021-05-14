@@ -88,10 +88,19 @@ Die Policies wurden mit "Install Policy" installiert.
 >
 > Install Policy Button
 
-![image](https://user-images.githubusercontent.com/173962/116460772-b82d3380-a867-11eb-914c-251b079ddaf4.png)
+#### 1.2.6
 
-![image](https://user-images.githubusercontent.com/173962/116462086-5a99e680-a869-11eb-8c1e-d9d56f243200.png)
+>![image](https://user-images.githubusercontent.com/173962/116460772-b82d3380-a867-11eb-914c-251b079ddaf4.png)
+>
+> Bei der initialen Verbindung wird der SSH key angezeigt. Dieser sollte verglichen und akzeptiert werden.
 
-![image](https://user-images.githubusercontent.com/173962/116464247-08a69000-a86c-11eb-883b-5481d05206fc.png)
+
+>![image](https://user-images.githubusercontent.com/173962/116462086-5a99e680-a869-11eb-8c1e-d9d56f243200.png)
+>
+> Erfolgreicher Login via SSH Key auf die Linux Instanz
+
+>![image](https://user-images.githubusercontent.com/173962/116464247-08a69000-a86c-11eb-883b-5481d05206fc.png)
+>
+> Erfolgreicher Login via SSH Key auf die CloudGuard Instanz
 
 ### Lab 1.3 VNCServer & NAT Rules
