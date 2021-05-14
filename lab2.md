@@ -2,10 +2,30 @@
 
 ### Lab 2.1 IPS
 
+#### 2.1.3 Topologien einstellen
+
+> ![image](https://user-images.githubusercontent.com/173962/118303243-83ff7700-b4e5-11eb-9738-a4945f31f45f.png)
+>
+> Topology von eth0 auf "external" stellen.
+
+> ![image](https://user-images.githubusercontent.com/173962/118303483-cb860300-b4e5-11eb-968e-8d70cd016689.png)
+>
+> Topology von eth1 auf "internal" stellen.
+
+#### 2.1.4 IPS Blade aktivieren
+
+> ![image](https://user-images.githubusercontent.com/173962/118304190-a5ad2e00-b4e6-11eb-8787-24d5e11f7c53.png)
+>
+> IPS blade aktiviert
+
+> ![003](https://user-images.githubusercontent.com/173962/116441883-29fa8280-a852-11eb-8233-b5ce5fd76ff8.PNG)
+> 
+> IPS First Time Activation Einstellung
+
 ### Lab 2.2 Anti-Virus
 
 
-![003](https://user-images.githubusercontent.com/173962/116441883-29fa8280-a852-11eb-8233-b5ce5fd76ff8.PNG)
+
 
 ![image](https://user-images.githubusercontent.com/173962/116443098-87430380-a853-11eb-93a8-dd37cb9475ed.png)
 
