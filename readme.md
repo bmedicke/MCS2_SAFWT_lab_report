@@ -16,5 +16,5 @@
 
 ## Daten
 
-Linux internal IP: ´192.168.20.50´
+Linux internal IP: `192.168.20.50`
 
