@@ -81,6 +81,24 @@ Das hängt auch.
 
 ### Lab 2.2 Anti-Virus
 
+#### 2.2.2 Aktivierung Blade: Anti-Virus
 
+> ![image](https://user-images.githubusercontent.com/173962/118311585-65eb4400-b4f0-11eb-8f0f-52d26200dd10.png)
+> 
+> Anti-Virus Blade aktiviert "According to the Threat Prevention Policy"
+
+#### 2.2.5 Anpassen des zuvor angelegten Profils
+
+> ![image](https://user-images.githubusercontent.com/173962/118311906-d5613380-b4f0-11eb-8823-405ee8b68dc7.png)
+> 
+> Anti-Virus aktiviert
+
+> ![image](https://user-images.githubusercontent.com/173962/118312058-122d2a80-b4f1-11eb-9d38-761d788cd410.png)
+> 
+> Anti-Virus Detailseite
+
+> ![image](https://user-images.githubusercontent.com/173962/118312124-2ec96280-b4f1-11eb-8990-476603f7f2fa.png)
+> 
+> Angepasste Security Policy
 
 ### Lab 2.3 HTTPS Inspection
