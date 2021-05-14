@@ -80,6 +80,14 @@ Hier werden zwei weitere Regeln erstellt:
 
 Jetzt wurde Logging für alle Regeln aktiviert (siehe vorherigen Screenshot).
 
+#### 1.2.5
+
+Die Policies wurden mit "Install Policy" installiert.
+
+>![image](https://user-images.githubusercontent.com/173962/118281344-658d8180-b4cd-11eb-9c90-0cce74d98c8c.png)
+>
+> Install Policy Button
+
 ![image](https://user-images.githubusercontent.com/173962/116460772-b82d3380-a867-11eb-914c-251b079ddaf4.png)
 
 ![image](https://user-images.githubusercontent.com/173962/116462086-5a99e680-a869-11eb-8c1e-d9d56f243200.png)
