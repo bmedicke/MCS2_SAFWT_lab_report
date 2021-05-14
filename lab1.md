@@ -16,7 +16,9 @@ Der Fingerprint des Servers ist:
 
 Er stimmt überein.
 
-![002](https://user-images.githubusercontent.com/173962/116440505-dfc4d180-a850-11eb-9774-08411186ece4.PNG)
+> ![002](https://user-images.githubusercontent.com/173962/116440505-dfc4d180-a850-11eb-9774-08411186ece4.PNG)
+>
+> Fingerprint im Gaia Web Interface
 
 ---
 
