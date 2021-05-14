@@ -18,6 +18,7 @@
 
 * Linux interne IP: `192.168.20.50`
 * Cloudguard externe IP: `34.118.23.96`
+* Username: `cs20m027`
 
 ## Reports
 
