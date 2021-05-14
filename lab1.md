@@ -108,3 +108,13 @@ Die Policies wurden mit "Install Policy" installiert.
 Es sind keine Probleme aufgetreten.
 
 ### Lab 1.3 VNCServer & NAT Rules
+
+#### 1.3.1 Regel erstellen: Internetzugriff für die Linux Instanz
+
+>![image](https://user-images.githubusercontent.com/173962/118291355-cd48ca00-b4d7-11eb-9123-5c54ac9ad201.png)
+>
+> Policy, die Internetzugriff für die Linux Instanz erlaubt
+
+>![image](https://user-images.githubusercontent.com/173962/118291408-dd60a980-b4d7-11eb-9d50-fce75bab26f3.png)
+>
+> Publish & Install
