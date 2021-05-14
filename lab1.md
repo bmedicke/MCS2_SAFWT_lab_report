@@ -38,7 +38,9 @@ Anlegen eines neuen Netzwerkobjektes (Subnetz 192.168.20.0/24), welches mit NAT 
 >
 > Neues Netzwerkobjekt, Reiter: NAT
 
-Ebenso wurde ein Host-Obejtk angelegt, welches die Linux Instanz (IP: `192.168.20.50`) abbildet.
+Ebenso wurde ein Host-Objekt angelegt, welches die Linux Instanz (IP: `192.168.20.50`) abbildet.
+
+---
 
 ![image](https://user-images.githubusercontent.com/173962/116458672-320fed80-a865-11eb-8964-93ca2058e15d.png)
 
