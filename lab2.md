@@ -68,6 +68,12 @@ Das hängt auch.
 
 #### 2.1.10 Traffic generieren und Logs prüfen
 
+> ![image](https://user-images.githubusercontent.com/173962/118308457-3fc3a500-b4ec-11eb-80bd-f06c9ca7a006.png)
+> Start eines Nmap-Script-Scans
+
+> ![image](https://user-images.githubusercontent.com/173962/118308166-ee1b1a80-b4eb-11eb-8192-1467f8783fc0.png)
+> 
+> Erkannter Nmap-Script-Scan: `sudo nmap -sC google.com`
 
 
 ### Lab 2.2 Anti-Virus
