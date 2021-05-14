@@ -101,4 +101,20 @@ Das hängt auch.
 > 
 > Angepasste Security Policy
 
+#### 2.2.7 Update Anti-Virus
+
+> ![image](https://user-images.githubusercontent.com/173962/118312766-24f42f00-b4f2-11eb-8a62-b0dcb59c385a.png)
+>
+> Es gibt keinen manuellen Update-Button, also wurde auf alle 5 Minuten gestellt.
+
+#### 2.2.8 Testlauf Anti-Virus
+
+> ![image](https://user-images.githubusercontent.com/173962/118315824-4bb46480-b4f6-11eb-92cd-304dbb35a0b9.png)
+>
+> Eicar Download mit `curl` versucht.
+
+> ![image](https://user-images.githubusercontent.com/173962/118315702-245d9780-b4f6-11eb-9c9e-d208beb5895f.png)
+>
+> Eicar Test-Malware wurde erfolgreich erkannt und der Download unterbunden.
+
 ### Lab 2.3 HTTPS Inspection
