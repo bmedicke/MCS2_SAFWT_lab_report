@@ -61,7 +61,10 @@ Anlegen neuer Policies um SSH Zugriff auf Linux Instanz zu ermöglichen. Beachte
 >
 > Firewallregel, die Port 2222 erlaubt.
 
-![image](https://user-images.githubusercontent.com/173962/116461224-4bfeff80-a868-11eb-8dbc-87ca3f20934a.png)
+> ![image](https://user-images.githubusercontent.com/173962/116461224-4bfeff80-a868-11eb-8dbc-87ca3f20934a.png)
+> 
+> NAT Regel.
+
 
 ![image](https://user-images.githubusercontent.com/173962/116460772-b82d3380-a867-11eb-914c-251b079ddaf4.png)
 
