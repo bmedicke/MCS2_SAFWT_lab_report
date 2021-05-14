@@ -40,6 +40,10 @@ Anlegen eines neuen Netzwerkobjektes (Subnetz 192.168.20.0/24), welches mit NAT 
 
 Ebenso wurde ein Host-Objekt angelegt, welches die Linux Instanz (IP: `192.168.20.50`) abbildet.
 
+> ![image](https://user-images.githubusercontent.com/173962/118277689-54427600-b4c9-11eb-821a-b2399cdb10d4.png)
+>
+> Neues Netzwerkobjekt: Linux Instance
+
 ---
 
 ![image](https://user-images.githubusercontent.com/173962/116458672-320fed80-a865-11eb-8964-93ca2058e15d.png)
