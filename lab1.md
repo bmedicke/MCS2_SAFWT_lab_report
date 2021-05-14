@@ -57,7 +57,9 @@ Anlegen neuer Policies um SSH Zugriff auf Linux Instanz zu ermöglichen. Beachte
 >
 > Neues TCP-Service-Object: SSH-access
 
-![image](https://user-images.githubusercontent.com/173962/116462870-460a1e00-a86a-11eb-91e4-4a898ec0e51f.png)
+> ![image](https://user-images.githubusercontent.com/173962/116462870-460a1e00-a86a-11eb-91e4-4a898ec0e51f.png)
+>
+> Firewallregel, die Port 2222 erlaubt.
 
 ![image](https://user-images.githubusercontent.com/173962/116461224-4bfeff80-a868-11eb-8dbc-87ca3f20934a.png)
 
