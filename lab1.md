@@ -65,6 +65,17 @@ Anlegen neuer Policies um SSH Zugriff auf Linux Instanz zu ermöglichen. Beachte
 > 
 > NAT Regel.
 
+#### 1.2.3
+
+Hier werden zwei weitere Regeln erstellt:
+
+1. Erlauben von Management-Traffic
+2. Stealth Regel (restlichen Traffic droppen)
+
+> ![image](https://user-images.githubusercontent.com/173962/118280320-6376f300-b4cc-11eb-98d2-ae16f2c2e0ae.png)
+> 
+> Neue Management und Stealth Regeln
+
 
 ![image](https://user-images.githubusercontent.com/173962/116460772-b82d3380-a867-11eb-914c-251b079ddaf4.png)
 
