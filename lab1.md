@@ -202,3 +202,7 @@ Es sind keine Probleme aufgetreten.
 > ![image](https://user-images.githubusercontent.com/173962/118299273-d68a6480-b4e0-11eb-882b-f39fb3cfe021.png)
 >
 > Verbindung erfolgreich.
+
+#### 1.3.7 Aufgetretene Probleme
+
+* `Alt-Strg-Shift-F` um aus dem Fullscreen vom VNC Viewer rauszukommen.
