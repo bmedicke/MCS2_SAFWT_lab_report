@@ -42,14 +42,17 @@
 > 
 > Nur IPS Blade aktivieren, alles auf "Prevent"
 
+> ![image](https://user-images.githubusercontent.com/173962/116444786-6380bd00-a855-11eb-9815-dac316e523fa.png)
+> 
+> Publish & Install
+
+> ![image](https://user-images.githubusercontent.com/173962/116445471-35e84380-a856-11eb-910a-df0847e93d46.png)
+> 
+> Neues Profil
+
 ### Lab 2.2 Anti-Virus
 
 
-![image](https://user-images.githubusercontent.com/173962/116444786-6380bd00-a855-11eb-9815-dac316e523fa.png)
-
-Intrusion Prevention System Blade aktiviert und Policy installiert.
-
-![image](https://user-images.githubusercontent.com/173962/116445471-35e84380-a856-11eb-910a-df0847e93d46.png)
 
 ![image](https://user-images.githubusercontent.com/173962/116445008-ab9fdf80-a855-11eb-9851-907d40f17ead.png)
 
