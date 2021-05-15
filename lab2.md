@@ -13,6 +13,7 @@
   * [2.1.7 Profil "Strict" editieren](#217-profil-strict-editieren)
   * [2.1.9 Update](#219-update)
   * [2.1.10 Traffic generieren und Logs prüfen](#2110-traffic-generieren-und-logs-prüfen)
+  * [Aufgetretene Probleme](#aufgetretene-probleme)
 * [Lab 2.2 Anti-Virus](#lab-22-anti-virus)
   * [2.2.2 Aktivierung Blade: Anti-Virus](#222-aktivierung-blade-anti-virus)
   * [2.2.5 Anpassen des zuvor angelegten Profils](#225-anpassen-des-zuvor-angelegten-profils)
