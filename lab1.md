@@ -53,7 +53,8 @@ Anlegen eines neuen Netzwerkobjektes (Subnetz 192.168.20.0/24), welches mit NAT 
 
 > ![image](https://user-images.githubusercontent.com/173962/116457797-24a63380-a864-11eb-8b16-17e8f28af12e.png)
 >
-> Neues Netzwerkobjekt, Reiter: NAT
+> Neues Netzwerkobjekt, Reiter: NAT.<br>
+> Aktivieren von "Add automatic address translation rule", "Hide" und "Hide behind the gateway".
 
 Ebenso wurde ein Host-Objekt angelegt, welches die Linux Instanz (IP: `192.168.20.50`) abbildet.
 
@@ -63,10 +64,10 @@ Ebenso wurde ein Host-Objekt angelegt, welches die Linux Instanz (IP: `192.168.2
 
 ### 1.2.2 Neue Policies
 
-Anlegen neuer Policies um SSH Zugriff auf Linux Instanz zu ermöglichen. Beachte: Auf Port 22 läuft bereits der SSH Server der CloudGuard Instanz. Die folgenden Regeln wurden erstellt:
+Anlegen neuer Policies um SSH Zugriff auf Linux Instanz zu ermöglichen. Beachte: Auf Port `22` läuft bereits der SSH Server der CloudGuard Instanz, daher wird hier `2222` Die folgenden Regeln wurden erstellt:
 
-1. eine Firewallregel, die Port 2222 (für SSH) auf die CloudGuard Instanz erlaubt
-2. eine NAT-Regel, die Port 2222 der CloudGuard Instanz auf 22 der Linux Instanz mappt 
+1. eine Firewallregel, die Port `2222` (für SSH) auf die CloudGuard Instanz erlaubt
+2. eine NAT-Regel, die Port `2222` der CloudGuard Instanz auf `22` der Linux Instanz mappt 
 
 > ![image](https://user-images.githubusercontent.com/173962/116458672-320fed80-a865-11eb-8964-93ca2058e15d.png)
 >
@@ -159,35 +160,35 @@ Es sind keine Probleme aufgetreten.
 > `sudo apt install tightvncserver`
 
 
-### 1.3.4 VNC server starten
+### 1.3.4 VNC Server starten
 
 > ![image](https://user-images.githubusercontent.com/173962/118293263-c327cb00-b4d9-11eb-83d5-7d7f126e8941.png)
 >
-> Ok...
+> Passwortvergabe für den VNC Service
 
 > ![image](https://user-images.githubusercontent.com/173962/118293930-798bb000-b4da-11eb-8d1f-f358cb2f69c8.png)
 >
-> Setup fertiggestellt.
+> Gekürzte Passwörter sind nicht sehr vertrauenserweckend...
 
 > ![image](https://user-images.githubusercontent.com/173962/118294464-0898c800-b4db-11eb-8e9b-2f4ba395b421.png)
 >
-> xfce4 Eintrag
+> Desktop-Umgebung (xfce4) Eintrag
 
 > ![image](https://user-images.githubusercontent.com/173962/118294764-5ad9e900-b4db-11eb-9c0c-3fdab2a211f0.png)
 >
-> Ausführbar machen.
+> Ausführbar machen des Scripts.
 
 > ![image](https://user-images.githubusercontent.com/173962/118294941-8fe63b80-b4db-11eb-9252-ec59a880dcf8.png)
 >
-> Neues Service anlegen
+> Neuen Service anlegen
 
 > ![image](https://user-images.githubusercontent.com/173962/118295666-6da0ed80-b4dc-11eb-906e-8c0269d18ee1.png)
 >
-> Service Script
+> Editiertes Service Script
 
 > ![image](https://user-images.githubusercontent.com/173962/118295867-a04ae600-b4dc-11eb-8bc5-7585ef8ed0ab.png)
 >
-> VNC Service aktivieren und starten
+> Regenerieren des Dependy-Trees, VNC Service Autostart aktivieren und starten
 
 > ![image](https://user-images.githubusercontent.com/173962/118296300-1a7b6a80-b4dd-11eb-8098-f27ae0ef6765.png)
 >
@@ -198,26 +199,27 @@ Es sind keine Probleme aufgetreten.
 
 > ![image](https://user-images.githubusercontent.com/173962/118298315-9bd3fc80-b4df-11eb-83a7-2c804f96840b.png)
 >
-> Neues VNC Service Objekt
+> Neues VNC Service Objekt auf Port `5901`
 
 > ![image](https://user-images.githubusercontent.com/173962/118298535-dd64a780-b4df-11eb-8a06-f0fe782a0032.png)
 >
-> NAT für den VNC Service (von CloudGuard auf Linux Instanz)
+> NAT für den VNC Service (von CloudGuard auf Linux Instanz, jeweils Port `5901`)
 
 > ![image](https://user-images.githubusercontent.com/173962/118298780-33394f80-b4e0-11eb-9b1c-b7b189eb7ba1.png)
 >
-> Installieren der Policy.
+> Installieren der Policy
 
 ### 1.3.6 Testen der VNC Verbindung
 
 > ![image](https://user-images.githubusercontent.com/173962/118299065-94f9b980-b4e0-11eb-958e-66c9221d173f.png)
 >
-> Verbindungsaufbau funktioniert.
+> Der VNC Verbindungsaufbau funktioniert
 
 > ![image](https://user-images.githubusercontent.com/173962/118299273-d68a6480-b4e0-11eb-882b-f39fb3cfe021.png)
 >
-> Verbindung erfolgreich.
+> Der VNC Login war erfolgreich
 
 ### 1.3.7 Aufgetretene Probleme
 
-* `Alt-Strg-Shift-F` um aus dem Fullscreen vom VNC Viewer rauszukommen.
+* Der automatische Vollbildmodus hatte leiche Grafikfehler
+ * gelöst durch `Strg-Alt-Shift-F` um den Modus zu verlassen 
