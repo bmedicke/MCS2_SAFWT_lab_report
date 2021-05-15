@@ -1,5 +1,9 @@
 # Lab 3
 
+[lab1](lab1.md) | [lab2](lab2.md) | **lab3** | [lab4](lab4.md)
+
+---
+
 <!-- vim-markdown-toc GFM -->
 
 * [Lab 3.1 Application Control](#lab-31-application-control)

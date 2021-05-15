@@ -1,5 +1,9 @@
 # Lab 2
 
+[lab1](lab1.md) | **lab2** | [lab3](lab3.md) | [lab4](lab4.md)
+
+---
+
 <!-- vim-markdown-toc GFM -->
 
 * [Lab 2.1 IPS](#lab-21-ips)

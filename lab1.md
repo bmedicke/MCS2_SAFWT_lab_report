@@ -1,5 +1,9 @@
 # Lab 1
 
+**lab1** | [lab2](lab2.md) | [lab3](lab3.md) | [lab4](lab4.md)
+
+---
+
 <!-- vim-markdown-toc GFM -->
 
 * [Lab 1.1 Connecting to Management](#lab-11-connecting-to-management)
