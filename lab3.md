@@ -86,17 +86,45 @@ Es sind keine Probleme aufgetreten.
 
 ## Lab 3.2 URL Filtering
 
+> ![image](https://user-images.githubusercontent.com/173962/118373003-b5934380-b5b4-11eb-9590-f45f2c309c5d.png)
+>
+> Neues Application/Site Objekt
+
 ### 3.2.1 Neue Applikation erstellen
+
+> ![image](https://user-images.githubusercontent.com/173962/118373109-51bd4a80-b5b5-11eb-8781-ff0dc3d4bfcd.png)
+>
+> Zugriff ist noch möglich
 
 ### 3.2.3 Drop Policy für das Technikum erstellen
 
+> ![image](https://user-images.githubusercontent.com/173962/118373190-cdb79280-b5b5-11eb-914b-c9deacdd274a.png)
+>
+> Die Policy funktioniert
+
 ### 3.2.4 Testen der Drop Policy
+
+> ![image](https://user-images.githubusercontent.com/173962/118373237-0a838980-b5b6-11eb-9ce3-cf82bfba1ce9.png)
+>
+> Detailansicht des Blockeintrages
 
 *Welche URL Kategorien von Seiten würden Sie blockieren?*
 
-## Lab 3.3 HTTPS Inspection Bypass
+Persönlich würde ich nur Webseiten blocken, die eine sicherheitstechnische Gefahr darstellen. Aus Produktivitätsgründen kann es je nach Unternehmen gewünscht sein zusätzlich die folgenden Kategorien zu blocken:
+
+* anstößliche Inhalte (Wettseiten, Pornographie)
+* Social Media
+* Spiele Seiten
+* Musik/Video Streaming Seiten
+* etc.
+
+Wobei das produktivitätstechnisch vermutlich keinen positiven Einfluss hat. Geblockte Seiten haben negative Auswirkungen auf die Motivation der Mitarbeiter. Facebook wird sonst einfach am Handy geöffnet. Im Schlimmsten Fall führt es sogar zu einer Schatten-IT.
 
 ### Aufgetretene Probleme
+
+Es sind keine Probleme aufgetreten.
+
+## Lab 3.3 HTTPS Inspection Bypass
 
 ### 3.3.2 Erstellen einer Bypass Rule für das Technikum
 
