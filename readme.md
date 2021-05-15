@@ -1,4 +1,4 @@
-## SAFWT lab report
+# SAFWT lab report
 
 **Degree: IT Security Master, MCS**<br>
 **Semester: 2nd**<br>
