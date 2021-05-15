@@ -34,9 +34,26 @@
 
 ### 3.1.1 Aktivieren der Blades: Application Control & URL Filtering
 
+>![image](https://user-images.githubusercontent.com/173962/118366373-3c89f100-b5a0-11eb-82c3-75b74dc23f65.png)
+>
+> Aktivieren der "URL Filtering" und "Application Control" Blades 
+
 ### 3.1.3 Vorhandene Policy anpassen
 
+> ![image](https://user-images.githubusercontent.com/173962/118367659-61cb2f00-b5a1-11eb-881f-ffc645d7c729.png)
+>
+> Editierter Access Control Layer
+
+
+>![image](https://user-images.githubusercontent.com/173962/118368168-f03fb080-b5a1-11eb-8334-0af5eb660284.png)
+>
+> Installieren der Policy
+
 ### 3.1.6 Update
+
+>![image](https://user-images.githubusercontent.com/173962/118369547-15352300-b5a4-11eb-9f7e-7d6637d75611.png)
+>
+> Update Application Control & URL Filtering
 
 ### 3.1.7 Anlegen einer Application Control Policy
 
