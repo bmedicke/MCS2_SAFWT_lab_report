@@ -126,9 +126,21 @@ Es sind keine Probleme aufgetreten.
 
 ## Lab 3.3 HTTPS Inspection Bypass
 
+> ![image](https://user-images.githubusercontent.com/173962/118374045-46b8e900-b5ba-11eb-8311-733591449fdd.png)
+>
+> Vor Bypass Regel. Man sieht der Issuer ist Google.com (was ich als Wert im self-signed Certificate eingestellt habe)
+
 ### 3.3.2 Erstellen einer Bypass Rule für das Technikum
 
+> ![image](https://user-images.githubusercontent.com/173962/118374177-f726ed00-b5ba-11eb-9cb1-2308ee995374.png)
+>
+> Nach Bypass wird das Original Zertifikat verwendet. Vergleiche "Issued By" mit vorherigem Screenshot.
+
 ### 3.3.3 Testen des Zugriffs und Analyse des Zertifikates
+
+> ![image](https://user-images.githubusercontent.com/173962/118374319-b24f8600-b5bb-11eb-8e73-ec53c432ed75.png)
+>
+> HTTPS Inspection Bypass für die Technikum Seite funktioniert
 
 ### 3.3.4 Welche Kategorien von Seiten kommen in einem Unternehmen in Frage?
 
@@ -136,6 +148,14 @@ Es sind keine Probleme aufgetreten.
 
 *Welche Seiten oder Kategorien von Seiten würden Sie in der HTTPS Inspection ausnehmen, daher bypassen?*
 
+Jegliche Seiten, die private Daten übermitteln:
+* private Kommunikation
+* Regierungsseiten
+* Medizienische Seiten
+* Finanzseiten
+
 ### Aufgetretene Probleme
+
+Es sind (glücklicherweise ein weiteres Mal) keine Probleme aufgetreten.
 
 [nächstes Lab](lab4.md)
