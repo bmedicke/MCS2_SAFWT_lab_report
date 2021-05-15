@@ -20,3 +20,5 @@
 ## Lab 3.2 URL Filtering
 
 ## Lab 3.3 HTTPS Inspection Bypass
+
+[nächstes Lab](lab4.md)

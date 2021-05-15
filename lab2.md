@@ -199,3 +199,5 @@ Das `-k` Flag erlaubt die Verwendung von Self-Signed Certificates. Als Browser w
 > ![image](https://user-images.githubusercontent.com/173962/118318684-03974100-b4fa-11eb-8f60-0e3ab7b2d69c.png)
 >
 > Detailansicht: Erkanntes Eicar Testfile, auch über HTTPS
+
+[nächstes Lab](lab3.md)

@@ -245,3 +245,5 @@ Im letzten Schritt wurde die Verbindung mit dem TightVNC Viewer erfolgreich gete
 
 * Der automatische Vollbildmodus hatte leiche Grafikfehler
  * gelöst durch `Strg-Alt-Shift-F` um den Modus zu verlassen 
+
+[nächstes Lab](lab2.md)
