@@ -75,7 +75,14 @@
 
 ### 3.1.10 Zugriff auf Google Maps verbieten
 
+> ![image](https://user-images.githubusercontent.com/173962/118372496-2f75fd80-b5b2-11eb-9b55-9b59ea701948.png)
+>
+> Nach Deaktivieren der HTTPS Inspektion ist die Seite (über HTTPS) wieder erreichbar.
+> Dies ist der Fall, weil die Subdomain der Firewall gegenüber nicht offen gelegt wird.
+
 ### Aufgetretene Probleme
+
+Es sind keine Probleme aufgetreten.
 
 ## Lab 3.2 URL Filtering
 
