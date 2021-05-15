@@ -1,4 +1,4 @@
-## Lab 1
+# Lab 1
 
 
 <!-- vim-markdown-toc GFM -->
@@ -23,7 +23,7 @@
 
 <!-- vim-markdown-toc -->
 
-### Lab 1.1 Connecting to Management
+## Lab 1.1 Connecting to Management
 
 Der Fingerprint des Servers, der bei der ersten Verbindung angezeigt wird ist:
 
@@ -31,7 +31,7 @@ Der Fingerprint des Servers, der bei der ersten Verbindung angezeigt wird ist:
 
 Er stimmt mit dem im Gaia Web Interface überein.
 
-> ![002](https://user-images.githubusercontent.com/173962/116440505-dfc4d180-a850-11eb-9774-08411186ece4.PNG)
+> ![image](https://user-images.githubusercontent.com/173962/116440505-dfc4d180-a850-11eb-9774-08411186ece4.PNG)
 >
 > Fingerprint im Gaia Web Interface
 
@@ -41,9 +41,9 @@ _Beantworten Sie die Frage: Welche Aufgaben hat der Fingerprint und welche Bedro
 
 Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'ausgetauscht' wird, können Man-In-The-Middle Angriffe erkannt werden.
 
-### Lab 1.2 SSH Connection to Linux Instance
+## Lab 1.2 SSH Connection to Linux Instance
 
-#### 1.2.1 Subnet hinter NAT
+### 1.2.1 Subnet hinter NAT
 
 Anlegen eines neuen Netzwerkobjektes (Subnetz 192.168.20.0/24), welches mit NAT hinter der Firewall versteckt wird.
 
@@ -61,7 +61,7 @@ Ebenso wurde ein Host-Objekt angelegt, welches die Linux Instanz (IP: `192.168.2
 >
 > Neues Netzwerkobjekt: Linux Instance
 
-#### 1.2.2 Neue Policies
+### 1.2.2 Neue Policies
 
 Anlegen neuer Policies um SSH Zugriff auf Linux Instanz zu ermöglichen. Beachte: Auf Port 22 läuft bereits der SSH Server der CloudGuard Instanz. Die folgenden Regeln wurden erstellt:
 
@@ -77,10 +77,10 @@ Anlegen neuer Policies um SSH Zugriff auf Linux Instanz zu ermöglichen. Beachte
 > Firewallregel, die Port 2222 erlaubt.
 
 > ![image](https://user-images.githubusercontent.com/173962/116461224-4bfeff80-a868-11eb-8dbc-87ca3f20934a.png)
-> 
+>
 > NAT Regel.
 
-#### 1.2.3 Management Traffic & Stealth-Rule
+### 1.2.3 Management Traffic & Stealth-Rule
 
 Hier werden zwei weitere Regeln erstellt:
 
@@ -88,14 +88,14 @@ Hier werden zwei weitere Regeln erstellt:
 2. Stealth Regel (restlichen Traffic droppen)
 
 > ![image](https://user-images.githubusercontent.com/173962/118280320-6376f300-b4cc-11eb-98d2-ae16f2c2e0ae.png)
-> 
+>
 > Neue Management und Stealth Regeln
 
-#### 1.2.4 Logging
+### 1.2.4 Logging
 
 Jetzt wurde Logging für alle Regeln aktiviert (siehe vorherigen Screenshot).
 
-#### 1.2.5 Install Policy
+### 1.2.5 Install Policy
 
 Die Policies wurden mit "Install Policy" installiert.
 
@@ -103,7 +103,7 @@ Die Policies wurden mit "Install Policy" installiert.
 >
 > Install Policy Button
 
-#### 1.2.6 Testen der SSH Keys
+### 1.2.6 Testen der SSH Keys
 
 >![image](https://user-images.githubusercontent.com/173962/116460772-b82d3380-a867-11eb-914c-251b079ddaf4.png)
 >
@@ -118,13 +118,13 @@ Die Policies wurden mit "Install Policy" installiert.
 >
 > Erfolgreicher Login via SSH Key auf die CloudGuard Instanz
 
-#### Aufgetretene Probleme
+### Aufgetretene Probleme
 
 Es sind keine Probleme aufgetreten.
 
-### Lab 1.3 VNCServer & NAT Rules
+## Lab 1.3 VNCServer & NAT Rules
 
-#### 1.3.1 Regel erstellen: Internetzugriff für die Linux Instanz
+### 1.3.1 Regel erstellen: Internetzugriff für die Linux Instanz
 
 >![image](https://user-images.githubusercontent.com/173962/118291355-cd48ca00-b4d7-11eb-9123-5c54ac9ad201.png)
 >
@@ -134,13 +134,13 @@ Es sind keine Probleme aufgetreten.
 >
 > Publish & Install
 
-#### 1.3.2 Login und Internet-Test
+### 1.3.2 Login und Internet-Test
 
 > ![image](https://user-images.githubusercontent.com/173962/118291914-64158680-b4d8-11eb-9e75-4f89c73b9a53.png)
 >
 > Der Ping geht durch!
 
-#### 1.3.3 apt Installationen
+### 1.3.3 apt Installationen
 
 > ![image](https://user-images.githubusercontent.com/173962/118292217-b060c680-b4d8-11eb-84e5-b345d6a55627.png)
 >
@@ -159,14 +159,14 @@ Es sind keine Probleme aufgetreten.
 > `sudo apt install tightvncserver`
 
 
-#### 1.3.4 VNC server starten
+### 1.3.4 VNC server starten
 
 > ![image](https://user-images.githubusercontent.com/173962/118293263-c327cb00-b4d9-11eb-83d5-7d7f126e8941.png)
 >
 > Ok...
 
 > ![image](https://user-images.githubusercontent.com/173962/118293930-798bb000-b4da-11eb-8d1f-f358cb2f69c8.png)
-> 
+>
 > Setup fertiggestellt.
 
 > ![image](https://user-images.githubusercontent.com/173962/118294464-0898c800-b4db-11eb-8e9b-2f4ba395b421.png)
@@ -186,7 +186,7 @@ Es sind keine Probleme aufgetreten.
 > Service Script
 
 > ![image](https://user-images.githubusercontent.com/173962/118295867-a04ae600-b4dc-11eb-8bc5-7585ef8ed0ab.png)
-> 
+>
 > VNC Service aktivieren und starten
 
 > ![image](https://user-images.githubusercontent.com/173962/118296300-1a7b6a80-b4dd-11eb-8098-f27ae0ef6765.png)
@@ -194,7 +194,7 @@ Es sind keine Probleme aufgetreten.
 > Der Service läuft!
 
 
-#### 1.3.5 Erstellen von Security Policies
+### 1.3.5 Erstellen von Security Policies
 
 > ![image](https://user-images.githubusercontent.com/173962/118298315-9bd3fc80-b4df-11eb-83a7-2c804f96840b.png)
 >
@@ -208,7 +208,7 @@ Es sind keine Probleme aufgetreten.
 >
 > Installieren der Policy.
 
-#### 1.3.6 Testen der VNC Verbindung
+### 1.3.6 Testen der VNC Verbindung
 
 > ![image](https://user-images.githubusercontent.com/173962/118299065-94f9b980-b4e0-11eb-958e-66c9221d173f.png)
 >
@@ -218,6 +218,6 @@ Es sind keine Probleme aufgetreten.
 >
 > Verbindung erfolgreich.
 
-#### 1.3.7 Aufgetretene Probleme
+### 1.3.7 Aufgetretene Probleme
 
 * `Alt-Strg-Shift-F` um aus dem Fullscreen vom VNC Viewer rauszukommen.
