@@ -39,7 +39,7 @@ Er stimmt mit dem im Gaia Web Interface überein.
 
 _Beantworten Sie die Frage: Welche Aufgaben hat der Fingerprint und welche Bedrohungen werden damit verhindert?_
 
-Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'ausgetauscht' wird, können Man-In-The-Middle Angriffe erkannt werden.
+Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'ausgetauscht' wird, können Man-In-The-Middle Angriffe erkannt werden. Wenn sich der Fingerprint geändert hat, deutet das auf eine Änderung des Private Keys des Servers hin. Dies kann darauf hinweisen, dass sich ein Angreifer als der Zielserver ausgiebt. Es sollte sichergestellt werden, dass der Server integer ist.
 
 ## Lab 1.2 SSH Connection to Linux Instance
 
