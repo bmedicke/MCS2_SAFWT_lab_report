@@ -1,6 +1,5 @@
 # Lab 1
 
-
 <!-- vim-markdown-toc GFM -->
 
 * [Lab 1.1 Connecting to Management](#lab-11-connecting-to-management)
@@ -16,7 +15,7 @@
   * [1.3.1 Regel erstellen: Internetzugriff für die Linux Instanz](#131-regel-erstellen-internetzugriff-für-die-linux-instanz)
   * [1.3.2 Login und Internet-Test](#132-login-und-internet-test)
   * [1.3.3 apt Installationen](#133-apt-installationen)
-  * [1.3.4 VNC server starten](#134-vnc-server-starten)
+  * [1.3.4 VNC Server starten](#134-vnc-server-starten)
   * [1.3.5 Erstellen von Security Policies](#135-erstellen-von-security-policies)
   * [1.3.6 Testen der VNC Verbindung](#136-testen-der-vnc-verbindung)
   * [1.3.7 Aufgetretene Probleme](#137-aufgetretene-probleme)
