@@ -1,5 +1,8 @@
 # Lab 2
 
+**Author: Benjamin Medicke**<br>
+**Topics: IPS & Anti-Virus**
+
 [lab1](lab1.md) | **lab2** | [lab3](lab3.md) | [lab4](lab4.md)
 
 ---

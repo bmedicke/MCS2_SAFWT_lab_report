@@ -1,5 +1,8 @@
 # Lab 1
 
+**Author: Benjamin Medicke**<br>
+**Topics: Basics, SSH & VNC NAT**
+
 **lab1** | [lab2](lab2.md) | [lab3](lab3.md) | [lab4](lab4.md)
 
 ---

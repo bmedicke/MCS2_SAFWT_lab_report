@@ -1,5 +1,8 @@
 # Lab 3
 
+**Author: Benjamin Medicke**<br>
+**Topics: Application Control, URL Filtering & HTTPS Inspection Bypass**
+
 [lab1](lab1.md) | [lab2](lab2.md) | **lab3** | [lab4](lab4.md)
 
 ---
