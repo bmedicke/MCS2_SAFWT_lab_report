@@ -14,12 +14,15 @@
 
 ## Daten
 
-* Linux interne IP: `192.168.20.50`
 * Cloudguard externe IP: `34.118.23.96`
-* Username: `cs20m027`
+* Linux interne IP: `192.168.20.50`
+* Benutzername: `cs20m027`
 * SSH Port CloudGuard: `22`
 * SSH Port Linux: `2222`
 * VNC Port Linux: `5901`
+* Kollege für VPN: Nikolai Benedikt (`cs20m001`)
+  * Linux interne IP: `192.168.1.50`
+  * CloudGuard externe IP: `34.118.70.205`
 
 ## Laborberichte
 
