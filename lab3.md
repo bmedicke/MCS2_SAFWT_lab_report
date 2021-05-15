@@ -57,7 +57,19 @@
 
 ### 3.1.7 Anlegen einer Application Control Policy
 
+> ![image](https://user-images.githubusercontent.com/173962/118370280-47944f80-b5a7-11eb-96cf-0bd10a12ea06.png)
+>
+> Policy um Google Maps zu verbieten
+
 ### 3.1.9 Policy auf Linux Instanz testen
+
+> ![image](https://user-images.githubusercontent.com/173962/118370452-0e101400-b5a8-11eb-946c-db46b28f9084.png)
+>
+> Vor Installation der Policy geht Google Maps einwandfrei
+
+> ![image](https://user-images.githubusercontent.com/173962/118370610-a4443a00-b5a8-11eb-8b56-2511b5fe2d4b.png)
+>
+> Nach Installation wird die Seite geblockt
 
 <!-- Erfahrungen? -->
 
