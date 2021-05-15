@@ -1,10 +1,25 @@
 ## Lab 1
 
+
 <!-- vim-markdown-toc GFM -->
 
 * [Lab 1.1 Connecting to Management](#lab-11-connecting-to-management)
 * [Lab 1.2 SSH Connection to Linux Instance](#lab-12-ssh-connection-to-linux-instance)
+  * [1.2.1 Subnet hinter NAT](#121-subnet-hinter-nat)
+  * [1.2.2 Neue Policies](#122-neue-policies)
+  * [1.2.3 Management Traffic & Stealth-Rule](#123-management-traffic--stealth-rule)
+  * [1.2.4 Logging](#124-logging)
+  * [1.2.5 Install Policy](#125-install-policy)
+  * [1.2.6 Testen der SSH Keys](#126-testen-der-ssh-keys)
+  * [Aufgetretene Probleme](#aufgetretene-probleme)
 * [Lab 1.3 VNCServer & NAT Rules](#lab-13-vncserver--nat-rules)
+  * [1.3.1 Regel erstellen: Internetzugriff für die Linux Instanz](#131-regel-erstellen-internetzugriff-für-die-linux-instanz)
+  * [1.3.2 Login und Internet-Test](#132-login-und-internet-test)
+  * [1.3.3 apt Installationen](#133-apt-installationen)
+  * [1.3.4 VNC server starten](#134-vnc-server-starten)
+  * [1.3.5 Erstellen von Security Policies](#135-erstellen-von-security-policies)
+  * [1.3.6 Testen der VNC Verbindung](#136-testen-der-vnc-verbindung)
+  * [1.3.7 Aufgetretene Probleme](#137-aufgetretene-probleme)
 
 <!-- vim-markdown-toc -->
 
@@ -28,7 +43,7 @@ Der Fingerprint garantiert die Authentizität des Servers. Falls der Server 'aus
 
 ### Lab 1.2 SSH Connection to Linux Instance
 
-#### 1.2.1
+#### 1.2.1 Subnet hinter NAT
 
 Anlegen eines neuen Netzwerkobjektes (Subnetz 192.168.20.0/24), welches mit NAT hinter der Firewall versteckt wird.
 
@@ -46,7 +61,7 @@ Ebenso wurde ein Host-Objekt angelegt, welches die Linux Instanz (IP: `192.168.2
 >
 > Neues Netzwerkobjekt: Linux Instance
 
-#### 1.2.2
+#### 1.2.2 Neue Policies
 
 Anlegen neuer Policies um SSH Zugriff auf Linux Instanz zu ermöglichen. Beachte: Auf Port 22 läuft bereits der SSH Server der CloudGuard Instanz. Die folgenden Regeln wurden erstellt:
 
@@ -65,7 +80,7 @@ Anlegen neuer Policies um SSH Zugriff auf Linux Instanz zu ermöglichen. Beachte
 > 
 > NAT Regel.
 
-#### 1.2.3
+#### 1.2.3 Management Traffic & Stealth-Rule
 
 Hier werden zwei weitere Regeln erstellt:
 
@@ -76,11 +91,11 @@ Hier werden zwei weitere Regeln erstellt:
 > 
 > Neue Management und Stealth Regeln
 
-#### 1.2.4
+#### 1.2.4 Logging
 
 Jetzt wurde Logging für alle Regeln aktiviert (siehe vorherigen Screenshot).
 
-#### 1.2.5
+#### 1.2.5 Install Policy
 
 Die Policies wurden mit "Install Policy" installiert.
 
@@ -88,7 +103,7 @@ Die Policies wurden mit "Install Policy" installiert.
 >
 > Install Policy Button
 
-#### 1.2.6
+#### 1.2.6 Testen der SSH Keys
 
 >![image](https://user-images.githubusercontent.com/173962/116460772-b82d3380-a867-11eb-914c-251b079ddaf4.png)
 >
@@ -125,7 +140,7 @@ Es sind keine Probleme aufgetreten.
 >
 > Der Ping geht durch!
 
-#### 1.3.3 apt
+#### 1.3.3 apt Installationen
 
 > ![image](https://user-images.githubusercontent.com/173962/118292217-b060c680-b4d8-11eb-84e5-b345d6a55627.png)
 >
