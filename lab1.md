@@ -64,7 +64,7 @@ Ebenso wurde ein Host-Objekt angelegt, welches die Linux Instanz (IP: `192.168.2
 
 ### 1.2.2 Neue Policies
 
-Anlegen neuer Policies um SSH Zugriff auf Linux Instanz zu ermöglichen. Beachte: Auf Port `22` läuft bereits der SSH Server der CloudGuard Instanz, daher wird hier `2222` Die folgenden Regeln wurden erstellt:
+Anlegen neuer Policies um SSH Zugriff auf Linux Instanz zu ermöglichen. Beachte: Auf Port `22` läuft bereits der SSH Server der CloudGuard Instanz, daher wird hier Port `2222` verwendet. Die folgenden Regeln wurden erstellt:
 
 1. eine Firewallregel, die Port `2222` (für SSH) auf die CloudGuard Instanz erlaubt
 2. eine NAT-Regel, die Port `2222` der CloudGuard Instanz auf `22` der Linux Instanz mappt 
@@ -106,6 +106,8 @@ Die Policies wurden mit "Install Policy" installiert.
 
 ### 1.2.6 Testen der SSH Keys
 
+Abschließend wurde die Verbindung getestet.
+
 >![image](https://user-images.githubusercontent.com/173962/116460772-b82d3380-a867-11eb-914c-251b079ddaf4.png)
 >
 > Bei der initialen Verbindung wird der SSH key angezeigt. Dieser sollte verglichen und akzeptiert werden.
@@ -137,11 +139,19 @@ Es sind keine Probleme aufgetreten.
 
 ### 1.3.2 Login und Internet-Test
 
+Diese neue Regel wurde mit `ping` erfolgreich getestet.
+
 > ![image](https://user-images.githubusercontent.com/173962/118291914-64158680-b4d8-11eb-9e75-4f89c73b9a53.png)
 >
 > Der Ping geht durch!
 
 ### 1.3.3 apt Installationen
+
+In den nächsten Schritten wurden zusätzliche Pakete installiert:
+
+* `xfce4`
+* `xfce4-goodies`
+* `tightvncserver`
 
 > ![image](https://user-images.githubusercontent.com/173962/118292217-b060c680-b4d8-11eb-84e5-b345d6a55627.png)
 >
@@ -162,13 +172,15 @@ Es sind keine Probleme aufgetreten.
 
 ### 1.3.4 VNC Server starten
 
+Daraufhin wurde der VNC Server gestartet und konfiguriert. Ebenso wurde die installierte Desktop-Umgebung aktiviert und ein `systemd` Unit-File für den VNC Server eingerichtet und gestartet.
+
 > ![image](https://user-images.githubusercontent.com/173962/118293263-c327cb00-b4d9-11eb-83d5-7d7f126e8941.png)
 >
 > Passwortvergabe für den VNC Service
 
 > ![image](https://user-images.githubusercontent.com/173962/118293930-798bb000-b4da-11eb-8d1f-f358cb2f69c8.png)
 >
-> Gekürzte Passwörter sind nicht sehr vertrauenserweckend...
+> Gekürzte Passwörter wirken nicht sehr vertrauenserweckend...
 
 > ![image](https://user-images.githubusercontent.com/173962/118294464-0898c800-b4db-11eb-8e9b-2f4ba395b421.png)
 >
@@ -197,6 +209,8 @@ Es sind keine Probleme aufgetreten.
 
 ### 1.3.5 Erstellen von Security Policies
 
+Um den Zugriff auf die Linux Instanz über VNC zu ermöglichen wurden die folgenden Security Policies erstellt:
+
 > ![image](https://user-images.githubusercontent.com/173962/118298315-9bd3fc80-b4df-11eb-83a7-2c804f96840b.png)
 >
 > Neues VNC Service Objekt auf Port `5901`
@@ -210,6 +224,8 @@ Es sind keine Probleme aufgetreten.
 > Installieren der Policy
 
 ### 1.3.6 Testen der VNC Verbindung
+
+Im letzten Schritt wurde die Verbindung mit dem TightVNC Viewer erfolgreich getestet.
 
 > ![image](https://user-images.githubusercontent.com/173962/118299065-94f9b980-b4e0-11eb-958e-66c9221d173f.png)
 >
