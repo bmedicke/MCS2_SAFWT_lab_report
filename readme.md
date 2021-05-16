@@ -21,7 +21,7 @@
 * SSH Port Linux: `2222`
 * VNC Port Linux: `5901`
 * Kollege für VPN: Nikolai Benedikt (`cs20m001`)
-  * Linux interne IP: `192.168.1.50`
+  * Linux interne IP: `192.168.15.50`
   * CloudGuard externe IP: `34.118.70.205`
 
 ## Laborberichte
