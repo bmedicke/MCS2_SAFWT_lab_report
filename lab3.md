@@ -118,7 +118,7 @@ Persönlich würde ich nur Webseiten blocken, die eine sicherheitstechnische Gef
 * Musik/Video Streaming Seiten
 * etc.
 
-Wobei das produktivitätstechnisch vermutlich keinen positiven Einfluss hat. Geblockte Seiten haben negative Auswirkungen auf die Motivation der Mitarbeiter. Facebook wird sonst einfach am Handy geöffnet. Im Schlimmsten Fall führt es sogar zu einer Schatten-IT.
+Wobei das produktivitätstechnisch vermutlich keinen positiven Einfluss hat. Geblockte Seiten haben negative Auswirkungen auf die Motivation und Moral der Mitarbeiter. Facebook wird sonst einfach am Handy geöffnet. Im Schlimmsten Fall führt es sogar zu einer Schatten-IT.
 
 ### Aufgetretene Probleme
 
