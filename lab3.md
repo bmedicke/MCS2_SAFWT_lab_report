@@ -61,6 +61,10 @@
 >
 > Policy um Google Maps zu verbieten
 
+> ![image](https://user-images.githubusercontent.com/173962/118394373-9e039b80-b644-11eb-99de-5da7a1c9eac8.png)
+>
+> Google Maps benötigt HTTPS Inspection.
+
 ### 3.1.9 Policy auf Linux Instanz testen
 
 > ![image](https://user-images.githubusercontent.com/173962/118370452-0e101400-b5a8-11eb-946c-db46b28f9084.png)
