@@ -27,6 +27,10 @@
 
 ### 4.1.1 Aktivieren von IPSec VPN
 
+> ![image](https://user-images.githubusercontent.com/173962/118393849-84ad2000-b641-11eb-80ec-2da58442c6ea.png)
+>
+> "IPSec VPN" Blade aktiviert
+
 ### 4.1.2 Erstellen eines neuen Interoprable Devices
 
 ### 4.1.3 Erstellen einer neuen Meshed VPN Community

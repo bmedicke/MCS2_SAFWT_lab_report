@@ -150,6 +150,10 @@ Es sind keine Probleme aufgetreten.
 >
 > HTTPS Inspection Bypass für die Technikum Seite funktioniert
 
+>![image](https://user-images.githubusercontent.com/173962/118394784-110e1180-b647-11eb-8ee4-328a0751c63b.png)
+>
+> Inspiziert vs. gebypassed
+
 ### 3.3.4 Welche Kategorien von Seiten kommen in einem Unternehmen in Frage?
 
 <!-- Privacy concerns! -->
