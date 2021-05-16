@@ -31,27 +31,103 @@
 >
 > "IPSec VPN" Blade aktiviert
 
-### 4.1.2 Erstellen eines neuen Interoprable Devices
+> ![image](https://user-images.githubusercontent.com/173962/118395165-25eba480-b649-11eb-8cba-9a4058a030ac.png)
+>
+>
+
+### 4.1.2 Erstellen eines neuen Interoperable Devices
+
+> ![image](https://user-images.githubusercontent.com/173962/118395513-13726a80-b64b-11eb-8732-0ec9ff9e744a.png)
+>
+>
+
+> ![image](https://user-images.githubusercontent.com/173962/118395772-70baeb80-b64c-11eb-84be-835f1a38b72d.png)
+>
+>
+
+> ![image](https://user-images.githubusercontent.com/173962/118395797-934d0480-b64c-11eb-9478-c29d98990271.png)
+>
+>
 
 ### 4.1.3 Erstellen einer neuen Meshed VPN Community
+
+> ![image](https://user-images.githubusercontent.com/173962/118395850-df984480-b64c-11eb-87a0-5534185cf663.png)
+>
+>
+
+> ![image](https://user-images.githubusercontent.com/173962/118395904-356cec80-b64d-11eb-9953-e115e2740070.png)
+>
+>
+
+> ![image](https://user-images.githubusercontent.com/173962/118395922-49b0e980-b64d-11eb-805a-b8d177ebdc44.png)
+>
+>
 
 ### 4.1.4 Neue Firewall Regel
 
 Diese neue Regel erlaubt den Traffic von der eigenen Linux Instanz auf die des Kollegen.
 
+> ![image](https://user-images.githubusercontent.com/173962/118396162-7a455300-b64e-11eb-8daa-3b2741fa328a.png)
+>
+>
+
 ### 4.1.5 Gateway Objekt Eigentschaften anpassen
+
+> ![image](https://user-images.githubusercontent.com/173962/118396212-c2647580-b64e-11eb-8c19-6f4b18f7e735.png)
+>
+> Einstellungen waren OK.
 
 ### 4.1.7 Testen der Erreichbarkeit via VPN Tunnel
 
+> ![image](https://user-images.githubusercontent.com/173962/118396309-356dec00-b64f-11eb-9035-7c6186eeff81.png)
+>
+> VPN Tunnel wir aufgebaut
+
 ### 4.1.8 Erlauben von SSH Traffic
+
+> ![image](https://user-images.githubusercontent.com/173962/118396425-c80e8b00-b64f-11eb-8401-a182be5900b4.png)
+>
+> Der Tunnel funktioniert.
+
+> ![image](https://user-images.githubusercontent.com/173962/118396624-a3ff7980-b650-11eb-8e03-7855a6c3ff8a.png)
+>
+> `curl` auf Python Webserver, der bei meinem Kollegen läuft funktioniert.
 
 ### 4.1.9 Log des Blades: VPN
 
-<!-- Suchen Sie sich aus dem Log die Einträge für den Verbindungsaufbau (IPSec Phase 1
-     und Phase 2) heraus und legen Sie diese der Dokumentation bei. -->
+>![image](https://user-images.githubusercontent.com/173962/118396912-f725fc00-b651-11eb-8785-510ca482fb42.png)
+>
+>
 
 *Welche IPSec Parameter haben Sie verwendet bzw. sind empfehlenswert?*
 
 ### 4.1.10 Verbinden mit der Firewall via SSH
+
+<!-- Suchen Sie sich aus dem Log die Einträge für den Verbindungsaufbau (IPSec Phase 1 und Phase 2) heraus und legen Sie diese der Dokumentation bei. -->
+
+> ![image](https://user-images.githubusercontent.com/173962/118397115-c5f9fb80-b652-11eb-9185-20c0950da7ba.png)
+>
+> IKE Security Associations via `vpn tu`
+
+> ![image](https://user-images.githubusercontent.com/173962/118397154-ee81f580-b652-11eb-99dc-0bdc1091bceb.png)
+>
+> IPSec Security Associations via `vpn tu`
+
+
+> ![image](https://user-images.githubusercontent.com/173962/118397367-db235a00-b653-11eb-88af-e2657af6bc31.png)
+>
+> Neustart des Tunnels durch Löschen der Associations.
+
+#### a. Verbindungsaufbau
+
+> ![image](https://user-images.githubusercontent.com/173962/118398370-89c99980-b658-11eb-8312-3448a232170f.png)
+>
+> Sequence Number 1: IKE Phase 1 (AES-256 + Group 2, PSK)
+
+> ![image](https://user-images.githubusercontent.com/173962/118398287-348d8800-b658-11eb-9e3a-eb75372dbc6a.png)
+>
+> Sequence Number 2: IKE Phase 2 (AES-128 + SHA1)
+
+#### b. IPSec Parameterwahl
 
 ### Aufgetretene Probleme
