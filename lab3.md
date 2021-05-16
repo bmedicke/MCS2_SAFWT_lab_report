@@ -98,9 +98,13 @@ Es sind keine Probleme aufgetreten.
 
 ### 3.2.3 Drop Policy für das Technikum erstellen
 
+> ![image](https://user-images.githubusercontent.com/173962/118393110-942a6a00-b63d-11eb-93fe-91b653113cd5.png)
+>
+> Drop Policy: Technikum
+
 > ![image](https://user-images.githubusercontent.com/173962/118373190-cdb79280-b5b5-11eb-914b-c9deacdd274a.png)
 >
-> Die Policy funktioniert
+> Nach Installation: Die Policy funktioniert
 
 ### 3.2.4 Testen der Drop Policy
 
