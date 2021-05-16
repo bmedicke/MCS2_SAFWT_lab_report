@@ -130,6 +130,9 @@ Diese neue Regel erlaubt den Traffic von der eigenen Linux Instanz auf die des K
 
 *Welche IPSec Parameter haben Sie verwendet bzw. sind empfehlenswert?*
 
-
+Wir haben uns für die Standardeinstellungen entschieden, um eine hohe Kompatibilität zu gewährleisten. Zumindest `SHA-1` ist allerdings nicht mehr zeitgerecht:
+Google konnte bei diesem Algorithmus eine Kollision hervorrufen, womit dieser als gebrochen anzusehen ist. Siehe: http://shattered.io/ (Es war Google möglich zwei PDF Dokumente mit unterschiedlichem Inhalt, aber gleichem SHA-1 Hash zu erzeugen, also eine Chosen-Plaintext Attack)
 
 ### Aufgetretene Probleme
+
+* Die SmartConsole ist nicht die ausgereifteste Software. Oft erscheinen Logs erst nach einem Neustart oder stark verzögert.
