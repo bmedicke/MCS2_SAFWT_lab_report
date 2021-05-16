@@ -32,7 +32,11 @@
 
 ## Lab 3.1 Application Control
 
+Lab 3.1 beschäftigt sich mit Zugriffskontrollen von vordefinierten Webservices (im konkreten Fall Google Maps).
+
 ### 3.1.1 Aktivieren der Blades: Application Control & URL Filtering
+
+Zwei weitere Blades ("Application Control" und "URL Filtering") wurden aktiviert.
 
 >![image](https://user-images.githubusercontent.com/173962/118366373-3c89f100-b5a0-11eb-82c3-75b74dc23f65.png)
 >
@@ -40,10 +44,13 @@
 
 ### 3.1.3 Vorhandene Policy anpassen
 
+Über den Layer Editor wurde die vorhandene Policy angepasst:
+
 > ![image](https://user-images.githubusercontent.com/173962/118367659-61cb2f00-b5a1-11eb-881f-ffc645d7c729.png)
 >
 > Editierter Access Control Layer
 
+Die angepasste Version wurde installiert:
 
 >![image](https://user-images.githubusercontent.com/173962/118368168-f03fb080-b5a1-11eb-8334-0af5eb660284.png)
 >
@@ -51,11 +58,15 @@
 
 ### 3.1.6 Update
 
+Da das Blade zum ersten mal gestartet wurde, wurde ein Update durchgeführt:
+
 >![image](https://user-images.githubusercontent.com/173962/118369547-15352300-b5a4-11eb-9f7e-7d6637d75611.png)
 >
 > Update Application Control & URL Filtering
 
 ### 3.1.7 Anlegen einer Application Control Policy
+
+Ich habe mich für Google Maps entschieden:
 
 > ![image](https://user-images.githubusercontent.com/173962/118370280-47944f80-b5a7-11eb-96cf-0bd10a12ea06.png)
 >
@@ -65,7 +76,11 @@
 >
 > Google Maps benötigt HTTPS Inspection.
 
+Ein wichtiger Punkt hier ist, dass diese Policy nur funktioniert, wenn HTTPS Inspektion aktiviert ist. Das ist nicht bei jeder Applikation so (Google Calendar oder YouTube kann zum Beispiel auch ohne diese Funktion geblockt werden),
+
 ### 3.1.9 Policy auf Linux Instanz testen
+
+Vor Installation der Policy wurde die Seite getestet:
 
 > ![image](https://user-images.githubusercontent.com/173962/118370452-0e101400-b5a8-11eb-946c-db46b28f9084.png)
 >
@@ -73,7 +88,7 @@
 
 > ![image](https://user-images.githubusercontent.com/173962/118370610-a4443a00-b5a8-11eb-8b56-2511b5fe2d4b.png)
 >
-> Nach Installation wird die Seite geblockt
+> Nach Installation wird die Seite geblockt (bei aktivierter HTTPS Inspektion)
 
 <!-- Erfahrungen? -->
 
@@ -90,11 +105,15 @@ Es sind keine Probleme aufgetreten.
 
 ## Lab 3.2 URL Filtering
 
+Das Ziel dieses Labs war es eine Custum-URL zu blocken. In diesem Fall war das die Seite des Technikum Wiens.
+
 > ![image](https://user-images.githubusercontent.com/173962/118373003-b5934380-b5b4-11eb-9590-f45f2c309c5d.png)
 >
 > Neues Application/Site Objekt
 
 ### 3.2.1 Neue Applikation erstellen
+
+Vor Installation der Policy wurde die Seite wieder getestet.
 
 > ![image](https://user-images.githubusercontent.com/173962/118373109-51bd4a80-b5b5-11eb-8781-ff0dc3d4bfcd.png)
 >
@@ -111,6 +130,8 @@ Es sind keine Probleme aufgetreten.
 > Nach Installation: Die Policy funktioniert
 
 ### 3.2.4 Testen der Drop Policy
+
+Auch diese Policy funktioniert.
 
 > ![image](https://user-images.githubusercontent.com/173962/118373237-0a838980-b5b6-11eb-9ce3-cf82bfba1ce9.png)
 >
@@ -134,17 +155,23 @@ Es sind keine Probleme aufgetreten.
 
 ## Lab 3.3 HTTPS Inspection Bypass
 
+Dieses Lab behandelt das gezielte ignorieren von Seiten im Bezug auf HTTPS Inspection. Das kann vor allem zur Wahrung der Privatsphäre von Usern praktisch sein.
+
 > ![image](https://user-images.githubusercontent.com/173962/118374045-46b8e900-b5ba-11eb-8311-733591449fdd.png)
 >
 > Vor Bypass Regel. Man sieht der Issuer ist Google.com (was ich als Wert im self-signed Certificate eingestellt habe)
 
 ### 3.3.2 Erstellen einer Bypass Rule für das Technikum
 
+Das Original-Zertifikat nach installieren der Bypass Rule, der HTTPS Traffic wird also nicht aufgebrochen:
+
 > ![image](https://user-images.githubusercontent.com/173962/118374177-f726ed00-b5ba-11eb-9cb1-2308ee995374.png)
 >
 > Nach Bypass wird das Original Zertifikat verwendet. Vergleiche "Issued By" mit vorherigem Screenshot.
 
 ### 3.3.3 Testen des Zugriffs und Analyse des Zertifikates
+
+Siehe die zwei vorherigen Screenshots für die Auswirkungen auf das verwendete Zertifikat.
 
 > ![image](https://user-images.githubusercontent.com/173962/118374319-b24f8600-b5bb-11eb-8e73-ec53c432ed75.png)
 >
