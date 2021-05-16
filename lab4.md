@@ -25,21 +25,31 @@
 
 ## Lab 4.1 IPSec VPN
 
+Die Aufgabe dieses Labs war es, einen VPN Tunnel zu der Linux Instanz eines Partners aufzubauen.
+
 ### 4.1.1 Aktivieren von IPSec VPN
+
+Zu diesem Zweck wurde zuerst das VPN Blade unter den Gateway Einstellungen in "Gateways & Servers" aktiviert.
 
 > ![image](https://user-images.githubusercontent.com/173962/118393849-84ad2000-b641-11eb-80ec-2da58442c6ea.png)
 >
 > "IPSec VPN" Blade aktiviert
 
+Die folgenden Einstellungen wurden für "IPSec VPN" getroffen:
+
 > ![image](https://user-images.githubusercontent.com/173962/118395165-25eba480-b649-11eb-8cba-9a4058a030ac.png)
 >
 > IPSec VPN Einstellungen
 
+Daraufhin wurde die Policy installiert.
+
 ### 4.1.2 Erstellen eines neuen Interoperable Devices
+
+In den Sektion "Netzwerkobjekte" wurde ein neues "Interoperable Device" angelegt:
 
 > ![image](https://user-images.githubusercontent.com/173962/118395513-13726a80-b64b-11eb-8732-0ec9ff9e744a.png)
 >
-> Anlegen eines neuen Interoperable Devices: 2 Interfaces
+> Anlegen eines neuen Interoperable Devices: 2 Interfaces im Menüpunkt "Topology".
 
 > ![image](https://user-images.githubusercontent.com/173962/118395772-70baeb80-b64c-11eb-84be-835f1a38b72d.png)
 >
@@ -51,6 +61,8 @@
 
 ### 4.1.3 Erstellen einer neuen Meshed VPN Community
 
+Jetzt wurde eine VPN Community für teilnehmenden Gateways erstellt und konfiguriert.
+
 > ![image](https://user-images.githubusercontent.com/173962/118395850-df984480-b64c-11eb-87a0-5534185cf663.png)
 >
 > Neues Meshed VPN Community Objekt
@@ -59,13 +71,15 @@
 >
 > Festelegen eines Shared Secrets (PSK)
 
+Nach der Einigung auf ein (zuerst zu kurzes) Pre-Shared Secret wurde noch NAT innerhalb der Community deaktiviert:
+
 > ![image](https://user-images.githubusercontent.com/173962/118395922-49b0e980-b64d-11eb-805a-b8d177ebdc44.png)
 >
 > Deaktivieren von NAT innerhalb der VPN Community
 
 ### 4.1.4 Neue Firewall Regel
 
-Diese neue Regel erlaubt den Traffic von der eigenen Linux Instanz auf die des Kollegen.
+Diese neue Regel erlaubt den Traffic von der eigenen Linux Instanz auf die des Kollegen. Die Regel gilt für jeglichen Traffic.
 
 > ![image](https://user-images.githubusercontent.com/173962/118396162-7a455300-b64e-11eb-8daa-3b2741fa328a.png)
 >
@@ -79,15 +93,21 @@ Diese neue Regel erlaubt den Traffic von der eigenen Linux Instanz auf die des K
 
 ### 4.1.7 Testen der Erreichbarkeit via VPN Tunnel
 
+Für einen schnellen Test wurden Pings losgeschickt. Der erste Ping hat eine Weile gedauert (bis der Tunnel aufgebaut war), danach hat es einwandfrei funktioniert:
+
 > ![image](https://user-images.githubusercontent.com/173962/118396309-356dec00-b64f-11eb-9035-7c6186eeff81.png)
 >
 > VPN Tunnel wird automatisch aufgebaut und funktioniert
 
 ### 4.1.8 Erlauben von SSH Traffic
 
+Da in der Policy zuvor keine Einschränkungen auf Services oder Ports gewählt wurden hat SSH sofort funktioniert. (Zumindest bis zum Verbindungsaufbau, wir haben keine Keys ausgetauscht)
+
 > ![image](https://user-images.githubusercontent.com/173962/118396425-c80e8b00-b64f-11eb-8401-a182be5900b4.png)
 >
 > Der Tunnel ist funktionsfähig (SSH Verbindung scheitert nur an nicht vorhandenem Public Key)
+
+Als zusätzlichen Test haben wir auf einer Seite einen Webserver (via dem Python 3 `http.server` Modul) gestartet und von der anderen Seite einen `curl` HTTP-GET-Request abgesetzt. Dies hat einwandfrei funktioniert:
 
 > ![image](https://user-images.githubusercontent.com/173962/118396624-a3ff7980-b650-11eb-8e03-7855a6c3ff8a.png)
 >
@@ -97,26 +117,29 @@ Diese neue Regel erlaubt den Traffic von der eigenen Linux Instanz auf die des K
 
 >![image](https://user-images.githubusercontent.com/173962/118396912-f725fc00-b651-11eb-8785-510ca482fb42.png)
 >
->
+> Detailansicht des Logeintrags zum VPN-Blade
 
 ### 4.1.10 Verbinden mit der Firewall via SSH
+
+Um den Befehl `vpn tu` zu testen wurde sich via SSH auf die Firewall verbunden.
 
 <!-- Suchen Sie sich aus dem Log die Einträge für den Verbindungsaufbau (IPSec Phase 1 und Phase 2) heraus und legen Sie diese der Dokumentation bei. -->
 
 > ![image](https://user-images.githubusercontent.com/173962/118397115-c5f9fb80-b652-11eb-9185-20c0950da7ba.png)
 >
-> IKE Security Associations via `vpn tu`
+> IKE Security Associations via `vpn tu` gefolgt von `1`
 
 > ![image](https://user-images.githubusercontent.com/173962/118397154-ee81f580-b652-11eb-99dc-0bdc1091bceb.png)
 >
-> IPSec Security Associations via `vpn tu`
+> IPSec Security Associations via `vpn tu` gefolgt von `2`
 
+Wenn sich die Associations des Tunnels mit `vpn tu` gefolgt von `0` gelöscht wird, lässt sich der Verbindungsaufbau leicht erneut capturen.
 
 > ![image](https://user-images.githubusercontent.com/173962/118397367-db235a00-b653-11eb-88af-e2657af6bc31.png)
 >
 > Neustart des Tunnels durch Löschen der Associations
 
-#### a. Verbindungsaufbau
+#### a. Log Details des Verbindungsaufbaus
 
 > ![image](https://user-images.githubusercontent.com/173962/118398370-89c99980-b658-11eb-8312-3448a232170f.png)
 >
