@@ -168,7 +168,7 @@ Die Linux Instanz ist bereits im Protected Scope, dieser wird nun angepasst.
 
 > ![image](https://user-images.githubusercontent.com/173962/118392047-bae5a200-b637-11eb-85ba-b1f94cde8f48.png)
 >
-> Blockierte Eicar Test-Malware +ber HTTP
+> Blockierte Eicar Test-Malware über HTTP
 
 > ![image](https://user-images.githubusercontent.com/173962/118371130-68f73a80-b5ab-11eb-8831-8c1479ff0e1d.png)
 >
