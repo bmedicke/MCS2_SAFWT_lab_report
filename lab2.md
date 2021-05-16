@@ -158,7 +158,7 @@ Die Linux Instanz ist bereits im Protected Scope, dieser wird nun angepasst.
 
 ### 2.2.8 Testlauf Anti-Virus
 
-> ![image](https://user-images.githubusercontent.com/173962/118371166-97751580-b5ab-11eb-8e35-29d05f48ebab.png)
+> ![image](https://user-images.githubusercontent.com/173962/118392001-7bb75100-b637-11eb-9a9d-b02cebc0bda9.png)
 >
 > Es wurde der Eicar Download mit `curl` über HTTP versucht.
 
@@ -166,9 +166,13 @@ Die Linux Instanz ist bereits im Protected Scope, dieser wird nun angepasst.
 >
 > Ebenso via Browser
 
+> ![image](https://user-images.githubusercontent.com/173962/118392047-bae5a200-b637-11eb-85ba-b1f94cde8f48.png)
+>
+> Blockierte Eicar Test-Malware +ber HTTP
+
 > ![image](https://user-images.githubusercontent.com/173962/118371130-68f73a80-b5ab-11eb-8831-8c1479ff0e1d.png)
 >
-> Die Eicar Test-Malware wurde erfolgreich erkannt und der Download unterbunden.
+> Die Eicar Test-Malware wurde auch erfolgreich über HTTPS erkannt und der Download unterbunden. (Nach Aktivierung von HTTPS Inspection)
 
 ## Lab 2.3 HTTPS Inspection
 
