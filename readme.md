@@ -2,7 +2,6 @@
 
 **Degree: IT Security Master, MCS**<br>
 **Semester: 2nd**<br>
-**Lecturer: Thomas Krabina**<br>
 **Subject: Security Architekturen mit Firewalltechniken**<br>
 **Language: German**<br>
 **Author: Benjamin Medicke**
